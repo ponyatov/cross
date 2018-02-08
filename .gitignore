@@ -1,0 +1,7 @@
+*~
+*.swp
+gz/
+src/
+tmp/
+i486-*/
+mips-*/
