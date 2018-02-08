@@ -14,3 +14,5 @@ MPC_VER			= 1.0.3
 
 UBOOT_VER		= 2018.01
 # 2018.03-rc1 wait
+
+SYSLINUX_VER	= 

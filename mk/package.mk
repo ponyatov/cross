@@ -21,3 +21,6 @@ MPC_GZ			= $(MPC).tar.gz
 
 UBOOT 			= u-boot-$(UBOOT_VER)
 UBOOT_GZ		= $(UBOOT).tar.bz2
+
+SYSLINUX 		= syslinux-$(SYSLINUX_VER)
+SYSLINUX_GZ		= $(SYSLINUX).tar.bz2
