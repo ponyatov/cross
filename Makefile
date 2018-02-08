@@ -9,7 +9,7 @@ include mk/package.mk
 # default make target
 
 .PHONY: all dirs cross binutils gcc0 boot
-all: dirs cross
+all: dirs cross boot
 cross: binutils gcc0
 
 # directories structure
@@ -44,3 +44,8 @@ include mk/unpack.mk
 include mk/binutils.mk
 include mk/gcclibs.mk
 include mk/gcc.mk
+include mk/boot.mk
+
+.PHONY: debian
+debian:
+	sudo apt install build-essentials texinfo libsdl-dev
