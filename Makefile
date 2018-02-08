@@ -8,8 +8,9 @@ include mk/package.mk
 
 # default make target
 
-.PHONY: all dirs binutils gcc0 boot
-all: dirs binutils
+.PHONY: all dirs cross binutils gcc0 boot
+all: dirs cross
+cross: binutils gcc0
 
 # directories structure
 
@@ -41,3 +42,4 @@ CFG = configure --disable-nls --prefix=$(TC)
 
 include mk/unpack.mk
 include mk/binutils.mk
+include mk/gcclibs.mk
