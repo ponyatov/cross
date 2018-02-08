@@ -1,7 +1,7 @@
 CFG_GCCLIBS = --prefix=$(TMP) --disable-shared
 
 .PHONY: gcclibs
-gcclibs: mpc
+gcclibs: gmp mpfr mpc
 
 CFG_GMP = $(CFG_GCCLIBS)
 .PHONY: gmp

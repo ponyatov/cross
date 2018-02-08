@@ -43,3 +43,4 @@ CFG = configure --disable-nls --prefix=$(TC)
 include mk/unpack.mk
 include mk/binutils.mk
 include mk/gcclibs.mk
+include mk/gcc.mk
