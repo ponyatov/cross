@@ -1,1 +1,2 @@
 TARGET = $(CPU)-elf
+UBOOT_ARCH = x86

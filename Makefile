@@ -48,4 +48,5 @@ include mk/boot.mk
 
 .PHONY: debian
 debian:
-	sudo apt install build-essentials texinfo libsdl-dev
+	sudo apt install build-essentials
+#	 texinfo bc libsdl-dev
